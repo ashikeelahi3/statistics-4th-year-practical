@@ -15,3 +15,7 @@ Download SPSS: <https://t.me/ashikeelahi113/2>
 Install SPSS: <https://youtu.be/SXdaz7cdKCw>
 
 ### Problem 03 (Factor Analysis in R)
+
+**Important:** carefully import the csv file
+
+Video Link: <https://youtu.be/jPNFe_hkEBo>

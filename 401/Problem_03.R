@@ -1,7 +1,8 @@
 # install.packages("psych")
 
 library(psych) # For EFA and factor analysis tools
-car.data <- read.csv("car_sales.csv", as.is=TRUE)
+car.data <- read.csv("401/car_sales.csv", as.is=TRUE)
+# car.data <- read.csv("~/Documents/Statistics/statistics-4th-year-practical/401/car_sales.csv")
 head(car.data)
 
 # Pearsons Correlation matrix
@@ -27,7 +28,7 @@ KMO(corr_matrix)
 # Bartlett’s Test of Sphericity. Test if the correlation matrix is an 
 # identity matrix (we want p < 0.05).
 
-cortest.bartlett(cor(car.data), n = nrow(car.data))
+cortest.bartlett(corr_matrix, n = nrow(car.data))
 
 # Scree plot
 plot(x = seq(1:length(e.value)), y = e.value, type = "o",
