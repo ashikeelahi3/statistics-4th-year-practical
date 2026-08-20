@@ -4,6 +4,4 @@
 
 ### Problem 01 (PCA)
 
-Flow chart
-
-![flow chart](./401/img/pca_pipeline_flowchart.png)
+Video link: <https://youtu.be/ZQK5_iR40nU>
