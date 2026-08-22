@@ -31,3 +31,8 @@ Video Link: <https://youtu.be/hhcZGOqA1cQ>
 **Important:** carefully import the audio file
 
 Video Link: <https://youtu.be/yccMhN8yf8g>
+
+
+### Problem 06 (CCA in R)
+
+Video Link: <https://youtu.be/sXc-Wv_2WBs>
