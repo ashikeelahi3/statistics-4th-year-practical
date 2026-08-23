@@ -1,6 +1,6 @@
 # Part a) Read and Summarize Data
 
-pmaam.data <- read.csv("pmaam.csv", as.is=TRUE)
+pmaam.data <- read.csv("401/pmaam.csv", as.is=TRUE)
 head(pmaam.data)
 summary(pmaam.data)
 
@@ -52,7 +52,7 @@ CCA.result$xcoef
 CCA.result$ycoef
 
 # Canonical loadings:
-loadings.X <- cor(X, CCA.result$scores$xscores)
+loadings.X <- cor(X, CCA.result$scores$xscores) # CCA.result$scores$corr.X.xscores
 loadings.Y <- cor(Y, CCA.result$scores$yscores)
 
 cat("Canonical loadings for psychological variables(X):\n")
