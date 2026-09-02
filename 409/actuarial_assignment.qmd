@@ -1,0 +1,545 @@
+---
+title: "Actuarial Statistics Assignment"
+subtitle: "Life Tables, Annuities, Loans, Survival Analysis, Multiple Decrements & Joint-Life Models"
+author: "Ashik"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    theme: cosmo
+execute:
+  eval: false
+  warning: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup}
+#| label: setup
+#| include: false
+library(lifecontingencies)
+library(survival)
+```
+
+# Problem 1: Life Table and Actuarial Table
+
+|  |  |  |  |  |  |  |  |  |  |  |  |
+|----|----|----|----|----|----|----|----|----|----|----|----|
+| ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAQCAYAAADagWXwAAAAAXNSR0IArs4c6QAAAJhJREFUKFOl0bEKQXEUgPHfLcpikZWy2K02ZTFaDDaPYTRalUXeAaNRWaw2ryCxoAxK/7q3uN0s96xffX3nnMifiXLDEpo4xqYCaol2iQHGWGCDZ4BlVNHGECtscf8OquCEPvZBn649o4FHGnYxwwiHBNbxQg8tXDBHMWh3uMW1HawxwTTAUBrgO94xhF2zgn6umf+2mc/5AN7qGAeIXKESAAAAAElFTkSuQmCC) | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAYAAADkIz3lAAAAAXNSR0IArs4c6QAAAOVJREFUKFOF0SFLhEEQxvHfgSYFo0UwmcxySZtRk1/AZhI02MRw7cADDRpF0KAgIvcBDkXBJJg0GP0EHiIYRAb3PdbjZW/L7D7735l5Zhv+1gyamEUnaf9CI50WsY97bJfAuHvAEc5LYGT+wAJeS+AcnjCFnxK4hk0s1UGhVWZamMTWKLCLC5yNAt+xjJcSOI23zEi0c5LMHaId1UJcwS7W8ZkyjuEq6X08B7iBvRRvstIBHuCucj2OyPA11N8pjvGYjydn4tE8VhFl41u/qznm4DWihR5usYPLOnAiMzXY14G1o/wFuBIpV20Q98oAAAAASUVORK5CYII=) | 900 | 850 | 800 | 750 | 700 | 650 | 600 | 550 | 500 | 450 | 400 |
+| ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAQCAYAAADagWXwAAAAAXNSR0IArs4c6QAAAJhJREFUKFOl0bEKQXEUgPHfLcpikZWy2K02ZTFaDDaPYTRalUXeAaNRWaw2ryCxoAxK/7q3uN0s96xffX3nnMifiXLDEpo4xqYCaol2iQHGWGCDZ4BlVNHGECtscf8OquCEPvZBn649o4FHGnYxwwiHBNbxQg8tXDBHMWh3uMW1HawxwTTAUBrgO94xhF2zgn6umf+2mc/5AN7qGAeIXKESAAAAAElFTkSuQmCC) | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 |   |   |   |
+| ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAARCAYAAADkIz3lAAAAAXNSR0IArs4c6QAAAOVJREFUKFOF0SFLhEEQxvHfgSYFo0UwmcxySZtRk1/AZhI02MRw7cADDRpF0KAgIvcBDkXBJJg0GP0EHiIYRAb3PdbjZW/L7D7735l5Zhv+1gyamEUnaf9CI50WsY97bJfAuHvAEc5LYGT+wAJeS+AcnjCFnxK4hk0s1UGhVWZamMTWKLCLC5yNAt+xjJcSOI23zEi0c5LMHaId1UJcwS7W8ZkyjuEq6X08B7iBvRRvstIBHuCucj2OyPA11N8pjvGYjydn4tE8VhFl41u/qznm4DWihR5usYPLOnAiMzXY14G1o/wFuBIpV20Q98oAAAAASUVORK5CYII=) | 350 | 300 | 250 | 200 | 150 | 100 | 50 | 0 |   |   |   |
+
+```{r p1-setup}
+#| label: p1-setup
+x_sample  <- seq(from = 0, to = 18, by = 1)
+lx_sample <- c(900, 850, 800, 750, 700, 650, 600, 550, 500, 450,
+               400, 350, 300, 250, 200, 150, 100, 50, 0)
+```
+
+## a) Construct the life table
+
+```{r p1a}
+#| label: p1a
+lifetable <- new("lifetable", x = x_sample, lx = lx_sample, name = "lifetable")
+print(lifetable)
+```
+
+## b) Actuarial table at i = 3%
+
+```{r p1b}
+#| label: p1b
+exampleAct <- new("actuarialtable", x = x_sample, lx = lx_sample,
+                   interest = 0.03, name = "example actuarialtable")
+print(exampleAct)
+```
+
+## c) Probability a life aged 5 survives 1 year: $p_{5,1}$
+
+```{r p1c}
+#| label: p1c
+DemoEX1 <- pxt(lifetable, 5, 1)
+DemoEX1
+# p_5,1 = l6/l5 = 600/650 = 0.9231
+```
+
+## d) Probability a life aged 5 dies within 1 year: $q_{5,1}$
+
+```{r p1d}
+#| label: p1d
+DemoEX2 <- qxt(lifetable, 5, 1)
+DemoEX2
+# q_5,1 = 1 - p_5,1 = 0.0769
+```
+
+## e) Probability a life aged 5 does NOT die between ages 6 and 7
+
+```{r p1e}
+#| label: p1e
+l5 <- 650; l6 <- 600; l7 <- 550
+ans <- 1 - (l6 - l7) / l5
+ans
+# = 1 - 50/650 = 0.9231
+```
+
+## f) Complete expectation of life at age 5
+
+```{r p1f}
+#| label: p1f
+DemoEX3 <- exn(lifetable, 5, 1, "complete")
+DemoEX3
+# e-degree-5 = T5/l5 = 4225/650 = 6.5 years
+# (matches De Moivre formula: (omega - x)/2 = (18-5)/2 = 6.5)
+```
+
+## g) Central death rate at age 5
+
+```{r p1g}
+#| label: p1g
+DemoEX4 <- mxt(lifetable, 5, 1)
+DemoEX4
+# m5 = d5/L5 = 50/625 = 0.08
+```
+
+## h) Expected number of deaths between ages 5 and 6
+
+```{r p1h}
+#| label: p1h
+DemoEX5 <- dxt(lifetable, 5, 1)
+DemoEX5
+# d5 = 50
+```
+
+## i) Expected total deaths between ages 10 and 15
+
+```{r p1i}
+#| label: p1i
+DemoEX10 <- dxt(lifetable, 10, 5)
+DemoEX10
+# l10 - l15 = 400 - 150 = 250
+```
+
+## j) 15-year term insurance, age 25, i = 3%
+
+```{r p1j}
+#| label: p1j
+#| eval: false
+# NOT computable with this table: it only runs to age 18.
+# Formula once a suitable table exists (age up to 40+):
+Axn(actuarialtable = exampleAct, x = 25, n = 15)
+```
+
+## k) 10-year term insurance, age 22, i = 6%
+
+```{r p1k}
+#| label: p1k
+#| eval: false
+# NOT computable with this table for the same reason as (j).
+Axn(actuarialtable = exampleAct, x = 22, n = 10, i = 0.06)
+```
+
+## l) Assurances on a life aged 10 (sum payable at end of year of death)
+
+```{r p1l}
+#| label: p1l
+# i) Whole-life assurance of 1000
+WL10 <- 1000 * Axn(actuarialtable = exampleAct, x = 10)
+WL10   # ~ 877.46
+
+# ii) Pure endowment assurance of 500, term 6 years
+PE10_6 <- 500 * Exn(actuarialtable = exampleAct, x = 10, n = 6)
+PE10_6 # ~ 104.69
+
+# iii) Temporary (term) assurance of 1000, term 6 years
+Term10_6 <- 1000 * Axn(actuarialtable = exampleAct, x = 10, n = 6, type = "term")
+Term10_6 # ~ 677.15
+
+# iv) Endowment assurance of 100, term 5 years
+End10_5 <- 100 * Axn(actuarialtable = exampleAct, x = 10, n = 5, type = "EA")
+End10_5  # ~ 89.59
+
+# If your lifecontingencies version lacks type = "EA", build it manually:
+# End10_5 <- 100 * (Axn(exampleAct, x = 10, n = 5, type = "term") +
+#                    Exn(exampleAct, x = 10, n = 5))
+```
+
+# Problem 2: Loans, Savings Plans & Annuities
+
+## a) Loan of Tk. 150,000 at 7%, 10-year term — monthly installment & amortization schedule
+
+```{r p2a}
+#| label: p2a
+i <- 0.07
+Capital <- 150000
+n_years <- 10
+n_months <- n_years * 12
+
+# Effective monthly rate equivalent to the 7% annual rate
+monthlyInt <- (1 + i)^(1/12) - 1
+
+# Monthly installment
+R <- (1/12) * Capital / annuity(i = i, n = n_years, k = 12, type = "immediate")
+R   # ~ 1725.05
+
+# Amortization schedule
+balance   <- numeric(n_months + 1)
+interests <- numeric(n_months + 1)
+capitals  <- numeric(n_months + 1)
+balance[1] <- Capital
+
+for (m in 2:(n_months + 1)) {
+  interests[m] <- balance[m - 1] * monthlyInt
+  capitals[m]  <- R - interests[m]
+  balance[m]   <- balance[m - 1] * (1 + monthlyInt) - R
+}
+
+loanSummary <- data.frame(month = 0:n_months,
+                           payment = c(0, rep(R, n_months)),
+                           interest = interests,
+                           capital = capitals,
+                           balance = balance)
+loanSummary
+
+# Capital and balance at month 30
+loanSummary[loanSummary$month == 30, ]
+```
+
+## b) Required annual savings and annuity values for five savers
+
+```{r p2b}
+#| label: p2b
+RA <- 150000 / accumulatedValue(i = 0.07,  n = 10)
+RB <- 120000 / accumulatedValue(i = 0.06,  n = 12)
+RC <- 200000 / accumulatedValue(i = 0.08,  n = 15)
+RD <- 100000 / accumulatedValue(i = 0.075, n = 10)
+RE <- 160000 / accumulatedValue(i = 0.08,  n = 20)
+c(A = RA, B = RB, C = RC, D = RD, E = RE)
+
+iannuity_A <- annuity(i = 0.07,  n = 10, k = 1,  type = "immediate")
+dannuity_A <- annuity(i = 0.07,  n = 10, k = 12, type = "due")
+c(iannuity_A, dannuity_A)
+
+iannuity_B <- annuity(i = 0.06,  n = 12, k = 1,  type = "immediate")
+dannuity_B <- annuity(i = 0.06,  n = 12, k = 12, type = "due")
+c(iannuity_B, dannuity_B)
+
+iannuity_C <- annuity(i = 0.08,  n = 15, k = 1,  type = "immediate")
+dannuity_C <- annuity(i = 0.08,  n = 15, k = 12, type = "due")
+c(iannuity_C, dannuity_C)
+
+iannuity_D <- annuity(i = 0.075, n = 10, k = 1,  type = "immediate")
+dannuity_D <- annuity(i = 0.075, n = 10, k = 12, type = "due")
+c(iannuity_D, dannuity_D)
+
+iannuity_E <- annuity(i = 0.08,  n = 20, k = 1,  type = "immediate")
+dannuity_E <- annuity(i = 0.08,  n = 20, k = 12, type = "due")
+c(iannuity_E, dannuity_E)
+```
+
+## c) PV of 5 annual payments of Tk. 500 at i = 4%
+
+```{r p2c}
+#| label: p2c
+i <- 0.04
+V <- 1 / (1 + i)
+
+# (i) first payment at end of year 1 (annuity-immediate)
+PV_immediate <- 500 * ((1 - V^5) / i)
+PV_immediate   # ~ 2225.91
+
+# (ii) first payment at time 0 (annuity-due)
+PV_due <- 500 * (1 + ((1 - V^4) / i))
+PV_due         # ~ 2317.50
+```
+
+## d) Effective annual rate from 21% nominal, compounded monthly
+
+```{r p2d}
+#| label: p2d
+r <- 0.21
+m <- 12
+i_a <- (1 + r/m)^m - 1
+i_a
+i_a * 100   # in percent
+```
+
+## e) Future value of an annuity-due: \$1,000/yr, i = 3%, n = 5
+
+```{r p2e}
+#| label: p2e
+P <- 1000
+i <- 0.03
+n <- 5
+FV <- (1 + i) * P * (((1 + i)^n - 1) / i)
+FV   # ~ 5468.41
+```
+
+# Problem 3: Fund Interest Rates & Capital Redemption Policy
+
+|                                |                |
+|--------------------------------|----------------|
+| Fund at first January          | 1,25,00,000.00 |
+| Premium income during the year | 10,00,000.00   |
+| Claims                         | 2,50,000.00    |
+| Management Expenses            | 1,25,000.00    |
+| Gross interest                 | 12,50,000.00   |
+| Income tax                     | 1,25,000.00    |
+
+## a) Gross and net rate of interest earned by an insurance fund
+
+```{r p3a}
+#| label: p3a
+A  <- 12500000    # Fund at start of year
+PI <- 1000000     # Premium income
+GI <- 1250000     # Gross interest earned
+IT <- 125000      # Income tax
+C  <- 250000      # Claims
+E  <- 125000      # Management expenses
+
+I <- GI - IT       # net interest
+B <- A + PI + I - C - E
+B   # 14,250,000
+
+i_net <- (2 * I) / (A + B - I)
+i_net; i_net * 100      # ~ 8.78%
+
+I1 <- GI
+i_gross <- (2 * I1) / (A + B - I)
+i_gross; i_gross * 100  # ~ 9.76%
+```
+
+## b) Capital redemption policy: Tk. 10,000 at end of 10 years, i = 10%
+
+```{r p3b}
+#| label: p3b
+i <- 0.10
+n <- 10
+V <- 1 / (1 + i)
+K <- 10000
+
+# (i) Annual premium
+AC <- (V^n) * K
+a_n     <- (1 - V^n) / i
+a_n_due <- (1 + i) * a_n
+P <- AC / a_n_due
+P   # ~ 570.41
+
+# Policy value at end of year 5
+n2 <- 5
+S_n     <- ((1 + i)^n2 - 1) / i
+S_n_due <- (1 + i) * S_n
+PValue  <- P * S_n_due
+PValue  # ~ 3830.67
+
+# (ii) Paid-up policy value at end of year 5
+Paidvalue <- PValue / (V^(n - n2))
+Paidvalue # ~ 6169.33
+```
+
+# Problem 4: Survival Analysis on Churn Data
+
+## a) Load data & describe characteristics
+
+```{r p4a}
+#| label: p4a
+data <- read.csv(file.choose())
+dim(data)
+head(data)
+names(data)
+str(data)
+# The dataset has 21 variables (categorical + numerical), including
+# State, Account.length, Area.code, Phone, Int.l.Plan, VMail.Plan,
+# VMail.Message, Day/Eve/Night/Intl usage & charge fields,
+# CustServ.Calls, and Churn (the outcome).
+```
+
+## b) Recode Churn as 0/1
+
+```{r p4b}
+#| label: p4b
+dat <- data[, c("Account.length", "Churn")]
+dat$Churn <- ifelse(dat$Churn == "TRUE", 1, 0)
+dat$Churn
+```
+
+## c) Fit and plot the survival function
+
+```{r p4c}
+#| label: p4c
+survdat <- Surv(time = dat$Account.length, event = dat$Churn)
+fit <- survfit(survdat ~ 1, se = TRUE)
+plot(fit, main = "Survival Function", xlab = "Time (Account length)",
+     ylab = "Survival Probability")
+fit
+# Median time to churn ~ 201
+```
+
+## d) Fit Cox Proportional Hazards model
+
+```{r p4d}
+#| label: p4d
+# Fixed: "<- " must have no space (original "< -" is a comparison, not
+# assignment), and `data =` must reference the full data frame with
+# Churn recoded, not an undefined object.
+fitt <- coxph(
+  Surv(Account.length, Churn) ~ State + Int.l.Plan + VMail.Plan + Day.Mins,
+  data = within(data, Churn <- ifelse(Churn == "TRUE", 1, 0))
+)
+summary(fitt)
+```
+
+## e) Overall comment
+
+Median time to churn is \~201 days. State, Int.l.Plan, VMail.Plan, and
+Day.Mins are significant predictors. `Int.l.Plan` and higher `Day.Mins`
+carry hazard ratios \> 1 (higher churn risk); `VMail.Plan` and longer
+`Account.length` carry hazard ratios \< 1 (protective, lower churn
+risk).
+
+# Problem 5: Multiple Decrement Table
+
+## 1-2) Assign probabilities and build the table
+
+```{r p5-1-2}
+#| label: p5-1-2
+n <- 100
+age <- 0:n
+q1 <- rep(0.01, n + 1)   # death
+q2 <- rep(0.02, n + 1)   # withdrawal
+q3 <- rep(0.03, n + 1)   # disability
+
+multi_table <- data.frame(age = age, q1 = q1, q2 = q2, q3 = q3)
+multi_table
+```
+
+## 3-4) Total decrement rate and total survival probability
+
+```{r p5-3-4}
+#| label: p5-3-4
+multi_table$total_q <- multi_table$q1 + multi_table$q2 + multi_table$q3
+multi_table$p_tau   <- 1 - multi_table$total_q
+```
+
+## 5) Number of lives ($l_\tau$)
+
+```{r p5-5}
+#| label: p5-5
+l0 <- 100000   # fixed: must be a variable name, not "10 <- 100000"
+multi_table$l_tau <- 0
+multi_table$l_tau[1] <- l0
+for (i in 2:nrow(multi_table)) {
+  multi_table$l_tau[i] <- multi_table$l_tau[i - 1] * multi_table$p_tau[i - 1]
+}
+multi_table$l_tau
+```
+
+## 6-8) Decrements by cause
+
+```{r p5-6-8}
+#| label: p5-6-8
+multi_table$d1 <- multi_table$l_tau * multi_table$q1  # death
+multi_table$d2 <- multi_table$l_tau * multi_table$q2  # withdrawal
+multi_table$d3 <- multi_table$l_tau * multi_table$q3  # disability
+multi_table
+```
+
+## 9) Decrements at age 15
+
+```{r p5-9}
+#| label: p5-9
+multi_table[multi_table$age == 15, ]
+# d1 (death)      ~ 395.29
+# d2 (withdrawal) ~ 790.58
+# d3 (disability) ~ 1185.88
+```
+
+## 10) Overall comment
+
+Since q1, q2, q3 are constant, $l_\tau$ declines geometrically:
+$l_\tau(x) = 100000 \times 0.94^x$. By age 15 about 60.5% of lives
+remain (\~39,529); by age 100 only \~205 remain. Disability removes the
+most lives at every age (highest rate, 0.03), followed by withdrawal
+(0.02), then death (0.01) — consistently in roughly a 1:2:3 ratio.
+
+# Problem 6: Joint-Life and Last-Survivor Status
+
+Lives: $x$ (age 65), $y$ (age 62); constant mortality $q_x = 0.005$,
+$q_y = 0.004$; interest $i = 5\%$; projected for $t = 0$ to $40$ years.
+
+## 1) Mortality, survival probabilities, and discounting setup
+
+```{r p6-1}
+#| label: p6-1
+age_x <- 65; age_y <- 62
+qx <- 0.005; qy <- 0.004
+i <- 0.05
+v <- 1 / (1 + i)
+n <- 40
+t <- 0:n
+
+px <- 1 - qx
+py <- 1 - qy
+tpx <- px^t
+tpy <- py^t
+```
+
+## 2) Joint survival probability
+
+```{r p6-2}
+#| label: p6-2
+tpxy <- tpx * tpy
+```
+
+## 3) Last-survivor probability
+
+```{r p6-3}
+#| label: p6-3
+tp_last <- tpx + tpy - tpxy
+```
+
+## 4) Combined table at selected durations
+
+```{r p6-4}
+#| label: p6-4
+select_t <- c(0, 1, 5, 10, 15, 20, 25, 30, 40)
+cat(sprintf("%-6s  %-12s  %-12s  %-12s  %-14s\n",
+    "Year", "tpx", "tpy", "tpxy", "tp(last surv)"))
+for (k in select_t) {
+  cat(sprintf("%-6d  %-12.6f  %-12.6f  %-12.6f  %-14.6f\n",
+      k, tpx[k + 1], tpy[k + 1], tpxy[k + 1], tp_last[k + 1]))
+}
+```
+
+## 5) Joint-life annuity-due
+
+```{r p6-5}
+#| label: p6-5
+axy <- sum(tpxy * v^t)
+axy   # ~ 16.1388
+```
+
+## 6) Last-survivor annuity-due
+
+```{r p6-6}
+#| label: p6-6
+a_last <- sum(tp_last * v^t)
+a_last   # ~ 18.0618
+
+# Cross-check: ax + ay - axy = a_last
+ax <- sum(tpx * v^t)
+ay <- sum(tpy * v^t)
+ax + ay - axy
+```
+
+::: callout-note
+`tpxy` declines faster than either individual survival probability
+because it requires *both* lives to survive; `tp_last` stays close to 1
+much longer because only one life needs to survive. This is why the
+last-survivor annuity (18.06) is worth more than the joint-life annuity
+(16.14) — a joint-life benefit stops at the first death, while a
+last-survivor benefit continues until the second death.
+:::
