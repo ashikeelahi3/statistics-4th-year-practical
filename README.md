@@ -48,3 +48,7 @@ Video List
 3. Basic + PCA: <https://youtu.be/Ljh08FNvMI0>
 4. FA, CCA, Cluster: <https://youtu.be/WeXkdncOjfY>
 5. Overall: <https://youtu.be/HIWiNwZ90dg> 
+
+
+## 402
+**Full Playlist on YouTube** <https://www.youtube.com/playlist?list=PLHQ7VjasR0DI>
