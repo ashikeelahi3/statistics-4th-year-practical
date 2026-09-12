@@ -32,3 +32,4 @@ abline(h=0,col=3,lwd=2)
 
 abline(h=c(0,-3.06),col=c(3,2),lwd=2)
 abline(v=4.48,col=4,lwd=2)
+

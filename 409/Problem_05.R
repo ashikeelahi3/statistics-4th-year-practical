@@ -88,7 +88,8 @@ multi_table$d3
 # 9) Full table view, and decrements at age 15 specifically
 # ------------------------------------------------------------
 
-multi_table   # full table: age, q1, q2, q3, total_q, p_tau, l_tau, d1, d2, d3
+round(multi_table, 2)   # full table: age, q1, q2, q3, total_q, p_tau, l_tau, d1, d2, d3
+
 
 # Row for age 15 (age 0 is row 1, so age 15 is row 16)
 multi_table[multi_table$age == 15, ]

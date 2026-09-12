@@ -1,6 +1,6 @@
 # Part a) Read and Summarize Data
 
-pmaam.data <- read.csv("401/pmaam.csv", as.is=TRUE)
+pmaam.data <- read.csv("pmaam.csv", as.is=TRUE)
 head(pmaam.data)
 summary(pmaam.data)
 

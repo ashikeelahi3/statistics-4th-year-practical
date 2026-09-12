@@ -36,3 +36,15 @@ Video Link: <https://youtu.be/yccMhN8yf8g>
 ### Problem 06 (CCA in R)
 
 Video Link: <https://youtu.be/sXc-Wv_2WBs>
+
+
+যা যা পড়তে হবে... 
+1. Assignment এর সবগুলো 
+2. Problem 04 (ICA in R)
+
+Video List
+1. কিছু কথা: <https://youtu.be/dCc8v4Xwym0>
+2. Import CSV + যদি লাইব্রেরী ইন্সটল করতে সমস্যা হয়: <https://youtu.be/AGI505TusYA>
+3. Basic + PCA: <https://youtu.be/Ljh08FNvMI0>
+4. FA, CCA, Cluster: <https://youtu.be/WeXkdncOjfY>
+5. Overall: <https://youtu.be/HIWiNwZ90dg> 

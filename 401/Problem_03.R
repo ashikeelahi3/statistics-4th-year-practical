@@ -1,7 +1,7 @@
 # install.packages("psych")
 
 library(psych) # For EFA and factor analysis tools
-car.data <- read.csv("401/car_sales.csv", as.is=TRUE)
+car.data <- read.csv("car_sales.csv", as.is=TRUE)
 # car.data <- read.csv("~/Documents/Statistics/statistics-4th-year-practical/401/car_sales.csv")
 head(car.data)
 
