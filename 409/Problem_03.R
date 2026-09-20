@@ -11,8 +11,8 @@ IT <- 125000       # income tax
 C  <- 250000       # claims
 E  <- 125000       # management expenses
 
-I <- GI - IT
-B <- A + PI + I - C - E
+I <- GI - IT       # Net interest
+B <- A + PI + I - C - E  # fund at the end of the year
 B
 
 i_net <- (2*I) / (A + B - I)

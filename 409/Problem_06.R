@@ -15,7 +15,10 @@ py <- pmin(1 - qy, 1)       # one-year survival probability, y
 tpx     <- c(1, cumprod(px))     # t-year survival probability of x
 tpy     <- c(1, cumprod(py))     # t-year survival probability of y
 tpxy    <- tpx * tpy             # joint survival: both alive (independence)
+# for (k in 1:n) tpxy[k + 1] <- tpxy[k] * px1[k] * px2[k]
 tp_last <- tpx + tpy - tpxy      # last survivor: at least one alive (inclusion-exclusion)
+
+
 
 # ---- 4. Table for selected durations ----
 years <- c(0, 1, 5, 10, 15, 20, 25, 30, 40)
@@ -29,3 +32,4 @@ axy    <- sum(tpxy * disc)       # joint life annuity-due
 a_last <- sum(tp_last * disc)    # last survivor annuity-due
 axy
 a_last
+
