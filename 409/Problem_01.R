@@ -67,5 +67,5 @@ Term10_6 <- 1000 * Axn(actuarialtable = exampleAct, x = 10, n = 6)
 Term10_6
 
 # iv) Endowment assurance of 1000, term 5 years
-End10_5  <- 1000  * AExn(actuarialtable = exampleAct, x = 10, n = 5)
+End10_5  <- 1000 * AExn(actuarialtable = exampleAct, x = 10, n = 5)
 End10_5
