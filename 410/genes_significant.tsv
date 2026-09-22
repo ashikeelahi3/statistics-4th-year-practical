@@ -1,0 +1,476 @@
+ID	Gene.Symbol	Gene.Title	log2(fold change)	-log10(Pvalue)
+11715164_s_at	IGLL3P	immunoglobulin lambda-like polypeptide 3, pseudogene	2.145	9.251
+11715228_s_at	SLC51B	solute carrier family 51, beta subunit	2.996	12.873
+11715481_a_at	SST	somatostatin	3.741	7.368
+11715752_at	TSPAN7	tetraspanin 7	2.569	7.289
+11715813_at	HIGD1A	HIG1 hypoxia inducible domain family, member 1A	2.089	10.276
+11715931_s_at	SGK1	serum/glucocorticoid regulated kinase 1	2.419	5.882
+11716308_s_at	CYBRD1	cytochrome b reductase 1	2.108	5.931
+11716486_at	FCGBP	Fc fragment of IgG binding protein	2.596	4.618
+11716663_a_at	GDF15	growth differentiation factor 15	-2.173	4.499
+11716665_s_at	GDF15	growth differentiation factor 15	-2.225	4.844
+11716697_at	FABP4	fatty acid binding protein 4, adipocyte	3.543	7.67
+11716974_a_at	PDK4	pyruvate dehydrogenase kinase, isozyme 4	2.672	5.992
+11717127_a_at	ANPEP	alanyl (membrane) aminopeptidase	2.693	6.122
+11717301_at	TACSTD2	tumor-associated calcium signal transducer 2	-3.681	9.442
+11717385_a_at	MT1G	metallothionein 1G	2.44	6.014
+11717386_s_at	MT1G	metallothionein 1G	2.758	6.378
+11717387_x_at	MT1G	metallothionein 1G	2.501	6.382
+11717475_a_at	CHGB	chromogranin B	2.694	7.823
+11717820_a_at	SLC4A4	solute carrier family 4 (sodium bicarbonate cotransporter), member 4	4.394	10.384
+11717825_a_at	STMN2	stathmin 2	2.645	8.335
+11717826_x_at	STMN2	stathmin 2	2.529	8.342
+11717909_at	IGFBP6	insulin like growth factor binding protein 6	2.175	4.476
+11717979_at	C7	complement component 7	3.44	6.761
+11717980_x_at	C7	complement component 7	3.494	7.055
+11718163_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	2.695	7.784
+11718237_a_at	C1orf115	chromosome 1 open reading frame 115	2.423	9.262
+11718452_at	AXIN2	axin 2	-2.1	5.698
+11718620_a_at	CHRDL1	chordin-like 1	2.66	5.603
+11718841_s_at	CXCL8	chemokine (C-X-C motif) ligand 8	-3.406	5.986
+11718932_a_at	FKBP1A-SDCBP2 /// SDCBP2	FKBP1A-SDCBP2 readthrough (NMD candidate) /// syndecan binding protein (syntenin) 2	2.083	10.584
+11718933_s_at	FKBP1A-SDCBP2 /// SDCBP2	FKBP1A-SDCBP2 readthrough (NMD candidate) /// syndecan binding protein (syntenin) 2	2.06	9.098
+11719366_s_at	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	-2.329	4.727
+11719434_a_at	ETV4	ets variant 4	-2.342	15.934
+11719633_a_at	KLF4	Kruppel-like factor 4 (gut)	2.139	8.58
+11719634_a_at	KLF4	Kruppel-like factor 4 (gut)	2.035	7.77
+11719660_at	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 polypeptide	2.434	5.891
+11719671_a_at	RCAN2	regulator of calcineurin 2	2.257	8.148
+11719674_at	REG3A	regenerating islet-derived 3 alpha	-2.795	2.003
+11719811_a_at	TRIB3	tribbles pseudokinase 3	-2.684	10.021
+11719843_a_at	ABI3BP	ABI family, member 3 (NESH) binding protein	3.117	8.376
+11719876_at	CKMT2	creatine kinase, mitochondrial 2 (sarcomeric)	-3.225	3.545
+11720030_a_at	SCG2	secretogranin II	2.498	8.473
+11720032_a_at	TRIM29	tripartite motif containing 29	-2.958	8.248
+11720105_a_at	SLC26A2	solute carrier family 26 (anion exchanger), member 2	3.592	8.427
+11720106_a_at	SLC26A2	solute carrier family 26 (anion exchanger), member 2	3.585	8.179
+11720280_at	KCNMA1	potassium channel, calcium activated large conductance subfamily M alpha, member 1	2.554	5.644
+11720372_at	TESC	tescalcin	-3.036	8.408
+11720606_a_at	SFRP2	secreted frizzled-related protein 2	2.535	3.938
+11720607_a_at	SFRP2	secreted frizzled-related protein 2	2.446	3.652
+11720794_a_at	SRPX	sushi-repeat containing protein, X-linked	2.784	7.046
+11720818_a_at	CXCL12	chemokine (C-X-C motif) ligand 12	3.48	9.042
+11720819_s_at	CXCL12	chemokine (C-X-C motif) ligand 12	4.325	9.922
+11720867_x_at	PLAC8	placenta specific 8	2.083	8.886
+11720946_at	CA12	carbonic anhydrase XII	2.137	7.479
+11720947_x_at	CA12	carbonic anhydrase XII	2.358	7.264
+11721124_s_at	MMP11	matrix metallopeptidase 11	-2.001	5.569
+11721305_a_at	PHLDA1	pleckstrin homology-like domain, family A, member 1	-2.073	6.714
+11721417_at	SCNN1B	sodium channel, non voltage gated 1 beta subunit	2.798	7.026
+11721557_a_at	ABCA8	ATP binding cassette subfamily A member 8	4.119	10.695
+11721572_at	C10orf99	chromosome 10 open reading frame 99	2.052	4.919
+11721602_a_at	SYNPO2	synaptopodin 2	2.612	4.601
+11721614_a_at	KIT	v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog	2.048	6.196
+11721719_at	NAAA	N-acylethanolamine acid amidase	2.108	12.064
+11721844_a_at	MFAP5	microfibrillar associated protein 5	2.999	6.436
+11721846_a_at	MFAP5	microfibrillar associated protein 5	2.127	5.22
+11721877_s_at	MT1F	metallothionein 1F	2.435	6.742
+11721993_at	SLC6A6	solute carrier family 6 (neurotransmitter transporter), member 6	-2.14	7.937
+11722059_at	ZG16	zymogen granule protein 16	4.288	7.527
+11722427_at	FGL2	fibrinogen-like 2	2.026	4.99
+11722469_a_at	ACSL6	acyl-CoA synthetase long-chain family member 6	-2.053	4.805
+11722470_x_at	ACSL6	acyl-CoA synthetase long-chain family member 6	-2.65	5.505
+11722660_a_at	NFE2L3	nuclear factor, erythroid 2-like 3	-2.75	11.354
+11722661_at	NFE2L3	nuclear factor, erythroid 2-like 3	-2.417	12.097
+11722685_s_at	LIFR	leukemia inhibitory factor receptor alpha	2.786	10.089
+11722783_at	FOXQ1	forkhead box Q1	-4.241	10.806
+11722791_s_at	MATN2	matrilin 2	2.105	7.222
+11722863_at	SCGB2A1	secretoglobin, family 2A, member 1	2.61	6.047
+11722926_a_at	MMRN1	multimerin 1	2.481	5.766
+11722941_at	MUC2	mucin 2, oligomeric mucus/gel-forming	2.138	3.851
+11722994_s_at	ADH1A /// ADH1B /// ADH1C	alcohol dehydrogenase 1A (class I), alpha polypeptide /// alcohol dehydrogenase 1B (class I), beta polypeptide /// alcohol dehydrogenase 1C (class I), gamma polypeptide	3.366	9.485
+11722995_at	ADH1B	alcohol dehydrogenase 1B (class I), beta polypeptide	3.754	9.597
+11723069_at	GABBR1 /// UBD	gamma-aminobutyric acid (GABA) B receptor, 1 /// ubiquitin D	-2.108	3.858
+11723163_s_at	NR3C2	nuclear receptor subfamily 3, group C, member 2	2.451	10.445
+11723191_at	ZIC2	Zic family member 2	-2.062	2.766
+11723222_s_at	MYOT	myotilin	2.553	8.626
+11723239_a_at	GNG7 /// LOC101929097	guanine nucleotide binding protein (G protein), gamma 7 /// uncharacterized LOC101929097	2.293	12.69
+11723246_s_at	SFRP1	secreted frizzled-related protein 1	3.641	6.76
+11723302_a_at	CHGA	chromogranin A	5.128	12.351
+11723339_at	CTSG	cathepsin G	2.066	6.009
+11723411_s_at	PLP1	proteolipid protein 1	3.012	9.112
+11723418_a_at	VSNL1	visinin like 1	-2.135	6.662
+11723439_at	SRPX2	sushi-repeat containing protein, X-linked 2	-2.399	5.425
+11723585_a_at	SMPDL3A	sphingomyelin phosphodiesterase, acid-like 3A	2.085	11.063
+11723635_s_at	MMP3	matrix metallopeptidase 3	-2.897	4.465
+11723645_at	PLN	phospholamban	2.334	3.243
+11723826_a_at	C2orf88	chromosome 2 open reading frame 88	2.918	12.251
+11723899_a_at	DHRS9	dehydrogenase/reductase (SDR family) member 9	2.491	8.364
+11724090_s_at	EDN3	endothelin 3	3.067	9.053
+11724219_x_at	GSTA1	glutathione S-transferase alpha 1	2.323	3.556
+11724221_at	NAP1L2	nucleosome assembly protein 1-like 2	2.027	9.758
+11724282_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	3.08	7.709
+11724296_a_at	BMP7	bone morphogenetic protein 7	-2.205	4.834
+11724341_at	PRIMA1	proline rich membrane anchor 1	2.706	8.259
+11724367_a_at	SEMA6D	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D	2.725	9.476
+11724466_x_at	ANLN	anillin actin binding protein	-2.012	6.331
+11724488_at	AKR1B10	aldo-keto reductase family 1, member B10 (aldose reductase)	2.347	5.241
+11724489_s_at	AKR1B10 /// AKR1B15	aldo-keto reductase family 1, member B10 (aldose reductase) /// aldo-keto reductase family 1, member B15	2.336	5.329
+11724490_x_at	AKR1B10	aldo-keto reductase family 1, member B10 (aldose reductase)	2.393	5.223
+11724501_at	SPON1	spondin 1, extracellular matrix protein	2.238	4.647
+11724503_at	SPON1	spondin 1, extracellular matrix protein	2.326	4.664
+11724538_a_at	ABCG2	ATP binding cassette subfamily G member 2 (Junior blood group)	3.769	10.072
+11724589_s_at	MMP12	matrix metallopeptidase 12	-2.076	2.85
+11724847_a_at	GBA3	glucosidase, beta, acid 3 (gene/pseudogene)	2.44	4.619
+11725053_x_at	TOP1MT	topoisomerase (DNA) I, mitochondrial	-2.047	8.531
+11725225_at	CHP2	calcineurin-like EF-hand protein 2	3.027	12.076
+11725226_at	CHP2	calcineurin-like EF-hand protein 2	3.158	10.035
+11725300_a_at	AOC3	amine oxidase, copper containing 3	2.14	4.677
+11725496_a_at	GPAT3	glycerol-3-phosphate acyltransferase 3	2.586	10.251
+11725553_at	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	3.172	6.614
+11725695_s_at	SDPR	serum deprivation response	2.095	5.721
+11725724_a_at	FABP6	fatty acid binding protein 6, ileal	-2.247	2.035
+11725765_a_at	COL11A1	collagen, type XI, alpha 1	-2.739	5.786
+11725766_x_at	COL11A1	collagen, type XI, alpha 1	-2.626	5.408
+11725830_a_at	PLCL2	phospholipase C-like 2	2.081	7.624
+11725922_a_at	CLIC6	chloride intracellular channel 6	2.176	7.724
+11725980_at	CFD	complement factor D (adipsin)	3.114	8.073
+11726063_a_at	C2orf40	chromosome 2 open reading frame 40	3.104	5.702
+11726124_at	TCN1	transcobalamin I (vitamin B12 binding protein, R binder family)	-2.196	4.651
+11726153_at	POU2AF1	POU class 2 associating factor 1	2.672	7.862
+11726188_at	SHISA3	shisa family member 3	2.014	4.694
+11726273_a_at	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2.841	6.054
+11726274_x_at	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2.739	6.083
+11726303_a_at	MFSD4	major facilitator superfamily domain containing 4	2.391	5.763
+11726304_x_at	MFSD4	major facilitator superfamily domain containing 4	2.545	5.839
+11726500_s_at	ANO5	anoctamin 5	2.05	8.832
+11726508_a_at	CDKN2B	cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)	3.044	11.446
+11726646_a_at	CDHR5	cadherin-related family member 5	2.048	9.165
+11726764_at	AQP8	aquaporin 8	4.345	8.163
+11726870_at	SETBP1	SET binding protein 1	2.132	7.383
+11726884_a_at	LDHD	lactate dehydrogenase D	2.208	8.713
+11727052_at	HOXB13	homeobox B13	2.067	2.295
+11727141_s_at	EPB41L3	erythrocyte membrane protein band 4.1-like 3	2.939	12.391
+11727143_x_at	EPB41L3	erythrocyte membrane protein band 4.1-like 3	2.574	11.351
+11727345_s_at	FBLN1	fibulin 1	2.033	4.592
+11727387_s_at	NPY1R	neuropeptide Y receptor Y1	2.323	6.424
+11727553_a_at	PKIB	protein kinase (cAMP-dependent, catalytic) inhibitor beta	3.3	10.536
+11727554_s_at	PKIB	protein kinase (cAMP-dependent, catalytic) inhibitor beta	3.432	10.709
+11727597_at	PADI2	peptidyl arginine deiminase, type II	2.694	8.232
+11727604_a_at	EPB41L4A	erythrocyte membrane protein band 4.1 like 4A	2.016	9.784
+11727737_s_at	AKAP7	A kinase (PRKA) anchor protein 7	2.002	5.386
+11727749_a_at	NR5A2	nuclear receptor subfamily 5, group A, member 2	2.085	10.955
+11727751_a_at	NR5A2	nuclear receptor subfamily 5, group A, member 2	2.565	9.913
+11727780_a_at	SCARA5	scavenger receptor class A, member 5	3.532	9.935
+11727867_a_at	CLEC3B /// EXOSC7	C-type lectin domain family 3, member B /// exosome component 7	3.008	8.512
+11727995_a_at	SPINK5	serine peptidase inhibitor, Kazal type 5	2.809	5.023
+11728039_s_at	CCL8	chemokine (C-C motif) ligand 8	2.089	3.472
+11728055_at	GHR	growth hormone receptor	2.593	9.424
+11728186_at	SLC35D3	solute carrier family 35, member D3	-2.927	5.649
+11728232_a_at	CLDN1	claudin 1	-4.12	12.647
+11728234_a_at	CLDN1	claudin 1	-3.877	13.763
+11728397_at	MT1M	metallothionein 1M	3.667	7.759
+11728398_x_at	MT1M	metallothionein 1M	3.491	7.87
+11728451_a_at	PCOLCE2	procollagen C-endopeptidase enhancer 2	2.493	4.668
+11728476_a_at	CXCL3	chemokine (C-X-C motif) ligand 3	-3.211	7.861
+11728477_at	CXCL3	chemokine (C-X-C motif) ligand 3	-2.984	7.37
+11728500_a_at	IL1R2	interleukin 1 receptor, type II	2.401	5.199
+11728528_a_at	CGREF1	cell growth regulator with EF-hand domain 1	-2.265	6.778
+11728575_a_at	CWH43	cell wall biogenesis 43 C-terminal homolog	3.083	7.125
+11728603_a_at	CLDN23	claudin 23	2.711	9.936
+11728715_at	CXCL5	chemokine (C-X-C motif) ligand 5	-2.232	2.651
+11728716_x_at	CXCL5	chemokine (C-X-C motif) ligand 5	-2.179	2.512
+11728717_at	CXCL5	chemokine (C-X-C motif) ligand 5	-2.45	2.701
+11728726_a_at	CEACAM7	carcinoembryonic antigen-related cell adhesion molecule 7	3.331	6.437
+11728727_at	CEACAM7	carcinoembryonic antigen-related cell adhesion molecule 7	2.464	4.47
+11728731_s_at	DSCC1	DNA replication and sister chromatid cohesion 1	-2.076	7.837
+11728746_a_at	CLCA1	chloride channel accessory 1	3.759	3.726
+11728771_a_at	CLCA4	chloride channel accessory 4	4.913	6.906
+11728821_a_at	HEPACAM2	HEPACAM family member 2	2.908	5.863
+11728840_at	TMCC3	transmembrane and coiled-coil domain family 3	2.106	7.36
+11728984_a_at	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	-2.601	10.337
+11728985_s_at	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	-2.225	10.565
+11728986_x_at	MTHFD1L	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like	-2.366	11.269
+11728998_x_at	GCNT2	glucosaminyl (N-acetyl) transferase 2, I-branching enzyme (I blood group)	2.102	12.022
+11729110_s_at	ADAMDEC1	ADAM-like, decysin 1	2.9	8.101
+11729111_x_at	ADAMDEC1	ADAM-like, decysin 1	3.049	7.576
+11729214_a_at	SLC26A3	solute carrier family 26 (anion exchanger), member 3	3.234	7.527
+11729417_at	KRT24	keratin 24, type I	2.046	4.581
+11729445_at	FAM150B	family with sequence similarity 150, member B	2.146	6.949
+11729538_at	LYPD8	LY6/PLAUR domain containing 8	3.233	7.062
+11729582_s_at	CA1	carbonic anhydrase I	5.329	7.75
+11729583_x_at	CA1	carbonic anhydrase I	5.399	7.507
+11729750_a_at	LPAR1	lysophosphatidic acid receptor 1	2.468	11.245
+11729831_a_at	CLDN8	claudin 8	4.237	8.259
+11729832_s_at	CLDN8	claudin 8	4.045	8.509
+11729935_a_at	PITX2	paired-like homeodomain 2	-2.17	4.1
+11729989_a_at	CACNA1A	calcium channel, voltage-dependent, P/Q type, alpha 1A subunit	2.004	12.799
+11729998_a_at	B3GNT7	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7	3.055	6.474
+11730073_at	CNTN3	contactin 3 (plasmacytoma associated)	2.47	7.653
+11730091_at	BEST4	bestrophin 4	3.783	10.781
+11730102_at	SCN9A	sodium channel, voltage gated, type IX alpha subunit	2.01	9.556
+11730103_at	SCN9A	sodium channel, voltage gated, type IX alpha subunit	2.168	9.767
+11730340_x_at	MSX2	msh homeobox 2	-2.128	5.182
+11730365_at	AMPD1	adenosine monophosphate deaminase 1	2.253	10.213
+11730384_at	GREM2	gremlin 2, DAN family BMP antagonist	2.478	8.41
+11730385_at	GREM2	gremlin 2, DAN family BMP antagonist	2.858	8.592
+11730764_a_at	CD177	CD177 molecule	2.374	6.408
+11730765_at	CD177	CD177 molecule	4.002	6.965
+11730779_at	ADH1C	alcohol dehydrogenase 1C (class I), gamma polypeptide	3.526	8.069
+11730780_x_at	ADH1C	alcohol dehydrogenase 1C (class I), gamma polypeptide	3.411	8.066
+11730867_at	MEP1A	meprin A, alpha (PABA peptide hydrolase)	2.515	5.069
+11730881_a_at	NEBL	nebulette	-2.238	11.221
+11730973_a_at	CA4	carbonic anhydrase IV	3.788	7.627
+11731172_s_at	GLDN	gliomedin	2.677	4.886
+11731317_a_at	MMP28	matrix metallopeptidase 28	2.091	7.512
+11731433_a_at	SEPP1	selenoprotein P, plasma, 1	2.016	6.693
+11731460_at	CPM	carboxypeptidase M	2.648	10.151
+11731461_x_at	CPM	carboxypeptidase M	3.243	11.09
+11731464_at	CPM	carboxypeptidase M	2.598	10.192
+11731525_at	TRIP13	thyroid hormone receptor interactor 13	-2.122	9.243
+11731554_a_at	SYNPO2	synaptopodin 2	2.089	3.076
+11731606_at	SCIN	scinderin	2.42	5.955
+11731607_a_at	SCIN	scinderin	2.306	6.571
+11731688_at	SI	sucrase-isomaltase (alpha-glucosidase)	2.667	3.551
+11731795_at	EPHX4	epoxide hydrolase 4	-3.056	15.549
+11731797_a_at	RGS13	regulator of G-protein signaling 13	2.332	6.33
+11731798_a_at	LGALS2	lectin, galactoside-binding, soluble, 2	3.724	10.384
+11731857_x_at	MT1H	metallothionein 1H	3.042	7.465
+11731862_at	CDH19	cadherin 19, type 2	2.724	7.1
+11731957_at	GUCA2A	guanylate cyclase activator 2A (guanylin)	4.601	13.652
+11731981_a_at	ADTRP	androgen-dependent TFPI-regulating protein	2.221	8.666
+11732085_a_at	SLC13A2	solute carrier family 13 (sodium-dependent dicarboxylate transporter), member 2	2.211	6.691
+11732089_a_at	ISX	intestine-specific homeobox	2.185	5.941
+11732094_a_at	PYY	peptide YY	4.037	11.923
+11732106_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	2.917	8.009
+11732178_a_at	MYH11	myosin, heavy chain 11, smooth muscle	2.555	3.59
+11732179_x_at	MYH11	myosin, heavy chain 11, smooth muscle	2.286	3.549
+11732337_x_at	BCAS1	breast carcinoma amplified sequence 1	2.005	6.242
+11732485_a_at	BTNL8	butyrophilin-like 8	2.803	3.938
+11732699_a_at	PKIB	protein kinase (cAMP-dependent, catalytic) inhibitor beta	3.248	9.869
+11732700_x_at	PKIB	protein kinase (cAMP-dependent, catalytic) inhibitor beta	3.201	9.957
+11732719_at	EREG	epiregulin	-2.433	3.866
+11732768_at	RNF152	ring finger protein 152	2.16	12.58
+11732818_at	TMEM171	transmembrane protein 171	2.663	9.423
+11732838_at	GUCA2B	guanylate cyclase activator 2B (uroguanylin)	4.92	14.43
+11733115_a_at	CA2	carbonic anhydrase II	3.87	7.46
+11733327_at	NKD1	naked cuticle homolog 1 (Drosophila)	-2.727	4.527
+11733394_at	TRPM6	transient receptor potential cation channel, subfamily M, member 6	3.523	9.962
+11733522_a_at	RUNDC3B	RUN domain containing 3B	2.213	10.16
+11733581_a_at	CA7	carbonic anhydrase VII	2.538	10.729
+11733698_s_at	SGK1	serum/glucocorticoid regulated kinase 1	2.414	5.857
+11733707_x_at	COL11A1	collagen, type XI, alpha 1	-2.377	5.62
+11733744_at	MS4A12	membrane-spanning 4-domains, subfamily A, member 12	4.2	6.648
+11733817_s_at	FHL1	four and a half LIM domains 1	2.036	5.108
+11733818_x_at	FHL1	four and a half LIM domains 1	2.395	5.41
+11733966_at	VIP	vasoactive intestinal peptide	2.718	6.687
+11733967_at	VIP	vasoactive intestinal peptide	2.516	5.672
+11734311_s_at	CNN1	calponin 1, basic, smooth muscle	2.161	2.647
+11734319_a_at	SLC17A4	solute carrier family 17, member 4	2.802	12.357
+11734320_a_at	SLC17A4	solute carrier family 17, member 4	3.141	10.703
+11734322_at	BMP3	bone morphogenetic protein 3	3.328	14.682
+11734396_at	HRASLS2	HRAS-like suppressor 2	2.008	5.033
+11734418_s_at	MAMDC2	MAM domain containing 2	2.461	7.252
+11734548_a_at	TGFBI	transforming growth factor, beta-induced, 68kDa	-2.335	8.919
+11734549_s_at	TGFBI	transforming growth factor, beta-induced, 68kDa	-2.191	8.219
+11734550_x_at	TGFBI	transforming growth factor, beta-induced, 68kDa	-2.215	8.918
+11734578_a_at	CFH	complement factor H	2.085	6.268
+11734978_at	BTNL3	butyrophilin-like 3	2.088	9.354
+11734979_at	BTNL3	butyrophilin-like 3	2.45	8.364
+11735143_at	SLC15A1	solute carrier family 15 (oligopeptide transporter), member 1	2.334	5.157
+11735331_a_at	RUNDC3B	RUN domain containing 3B	2.205	10.696
+11735421_a_at	NKD2	naked cuticle homolog 2 (Drosophila)	-2.068	5.95
+11735430_at	BEST2	bestrophin 2	2.329	4.99
+11735589_at	PTGDR	prostaglandin D2 receptor (DP)	2.252	6.376
+11735833_a_at	CEMIP	cell migration inducing protein, hyaluronan binding	-3.669	9.64
+11735913_s_at	TNXA /// TNXB	tenascin XA (pseudogene) /// tenascin XB	2.144	6.407
+11735989_s_at	JCHAIN	joining chain of multimeric IgA and IgM	3.105	5.761
+11735990_x_at	JCHAIN	joining chain of multimeric IgA and IgM	3.114	5.126
+11736061_a_at	SERPINB5	serpin peptidase inhibitor, clade B (ovalbumin), member 5	-2.594	4.767
+11736163_a_at	CDKN2B	cyclin-dependent kinase inhibitor 2B (p15, inhibits CDK4)	2.86	11.837
+11736190_a_at	OGN	osteoglycin	3.543	7.335
+11736191_s_at	OGN	osteoglycin	3.602	7.245
+11736281_a_at	SLC22A3	solute carrier family 22 (organic cation transporter), member 3	-2.98	12.634
+11736544_at	MACC1	metastasis associated in colon cancer 1	-2.255	9.658
+11736852_at	LRRC19	leucine rich repeat containing 19	2.794	11.823
+11736853_at	LRRC19	leucine rich repeat containing 19	3.21	8.597
+11737158_at	SLC9A2	solute carrier family 9, subfamily A (NHE2, cation proton antiporter 2), member 2	2.366	5.407
+11737294_a_at	TMIGD1	transmembrane and immunoglobulin domain containing 1	5.413	15.042
+11737644_a_at	RNF183	ring finger protein 183	-2.168	7.553
+11737749_a_at	SGK1	serum/glucocorticoid regulated kinase 1	2.439	6.214
+11737750_s_at	SGK1	serum/glucocorticoid regulated kinase 1	2.373	5.738
+11737953_a_at	SLC28A2	solute carrier family 28 (concentrative nucleoside transporter), member 2	2.187	2.923
+11738028_a_at	LAMA1	laminin, alpha 1	2.99	7.059
+11738092_a_at	PDE9A	phosphodiesterase 9A	2.666	7.099
+11738507_at	INSL5	insulin-like 5	3.585	4.747
+11739036_a_at	PLP1	proteolipid protein 1	2.999	9.498
+11739037_s_at	PLP1	proteolipid protein 1	2.846	7.896
+11739061_at	SLC7A5	solute carrier family 7 (amino acid transporter light chain, L system), member 5	-2.202	7.986
+11739128_a_at	CDH3	cadherin 3, type 1, P-cadherin (placental)	-3.457	16.518
+11739338_at	FAM46C	family with sequence similarity 46, member C	2.434	10.699
+11739339_s_at	FAM46C	family with sequence similarity 46, member C	2.312	11.376
+11739365_x_at	FAM92A1	family with sequence similarity 92, member A1	-2.223	6.832
+11739696_s_at	AFF3	AF4/FMR2 family, member 3	2.413	12.153
+11739823_a_at	CPNE8	copine VIII	2.393	8.955
+11740051_at	DUSP27	dual specificity phosphatase 27 (putative)	-2.292	2.118
+11740060_at	FABP2	fatty acid binding protein 2, intestinal	2.113	4.769
+11740632_at	REP15	RAB15 effector protein	2.018	3.71
+11740645_a_at	NXPE4	neurexophilin and PC-esterase domain family, member 4	2.875	4.323
+11740757_s_at	SIM2	single-minded family bHLH transcription factor 2	-2.929	12.527
+11740854_a_at	SLC6A20	solute carrier family 6 (proline IMINO transporter), member 20	-2.082	3.709
+11741049_s_at	TMEM100	transmembrane protein 100	2.464	8.502
+11741369_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	3.012	8.06
+11741376_a_at	LRP8	LDL receptor related protein 8	-2.06	8.277
+11741499_x_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.672	9.3
+11741602_x_at	EDN3	endothelin 3	2.633	9.623
+11741897_a_at	MMP1	matrix metallopeptidase 1	-2.479	3.108
+11741986_a_at	NXPE4	neurexophilin and PC-esterase domain family, member 4	2.877	4.173
+11742188_a_at	SLC4A4	solute carrier family 4 (sodium bicarbonate cotransporter), member 4	3.114	13.277
+11742378_a_at	AKR1B10 /// AKR1B15	aldo-keto reductase family 1, member B10 (aldose reductase) /// aldo-keto reductase family 1, member B15	2.204	5.459
+11742697_a_at	ITM2A	integral membrane protein 2A	2.217	7.92
+11742762_at	GCG	glucagon	4.745	7.805
+11742813_at	SEMA6A	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A	2.659	6.004
+11742814_s_at	SEMA6A	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A	2.267	6.692
+11742815_x_at	SEMA6A	sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6A	2.115	5.949
+11742820_s_at	OGN	osteoglycin	2.472	6.937
+11742821_s_at	OGN	osteoglycin	2.618	7.078
+11742938_at	ASCL2	achaete-scute family bHLH transcription factor 2	-2.554	8.369
+11742992_s_at	PSAT1	phosphoserine aminotransferase 1	-2.242	4.121
+11743044_a_at	ALDH1A1	aldehyde dehydrogenase 1 family, member A1	2.012	3.43
+11743172_a_at	SLCO4A1	solute carrier organic anion transporter family, member 4A1	-2.031	7.448
+11743240_a_at	LY6G6D	lymphocyte antigen 6 complex, locus G6D	-3.468	6.084
+11743655_a_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.499	11.08
+11743656_a_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.645	10.23
+11743657_x_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.642	10.545
+11743742_at	ATP11A	ATPase, class VI, type 11A	-2.009	8.639
+11743818_a_at	CILP	cartilage intermediate layer protein, nucleotide pyrophosphohydrolase	2.531	5.342
+11743856_a_at	CTHRC1	collagen triple helix repeat containing 1	-2.206	4.849
+11744030_a_at	MMP7	matrix metallopeptidase 7	-5.243	9.737
+11744031_at	MMP7	matrix metallopeptidase 7	-4.311	9.502
+11744099_a_at	HSD17B2	hydroxysteroid (17-beta) dehydrogenase 2	2.558	5.83
+11744128_x_at	CXCL2	chemokine (C-X-C motif) ligand 2	-2.151	5.619
+11744168_at	DPT	dermatopontin	3.018	5.483
+11744424_a_at	KRT23	keratin 23, type I	-4.011	4.935
+11744718_a_at	CTHRC1	collagen triple helix repeat containing 1	-2.434	4.99
+11745020_a_at	TNFRSF12A	tumor necrosis factor receptor superfamily, member 12A	-2.265	12.115
+11745192_a_at	EPB41L3	erythrocyte membrane protein band 4.1-like 3	2.396	12.555
+11745361_a_at	CRNDE	colorectal neoplasia differentially expressed (non-protein coding)	-3.408	9.257
+11745722_x_at	FHL1	four and a half LIM domains 1	2.648	5.109
+11745787_at	MUC12	mucin 12, cell surface associated	2.034	3.254
+11746322_x_at	ADH1B	alcohol dehydrogenase 1B (class I), beta polypeptide	3.276	9.157
+11746389_a_at	CDH3	cadherin 3, type 1, P-cadherin (placental)	-2.109	10.849
+11746700_s_at	ITM2A	integral membrane protein 2A	2.378	9.228
+11746898_x_at	ADH1B	alcohol dehydrogenase 1B (class I), beta polypeptide	4.343	9.752
+11746931_a_at	INHBA	inhibin beta A	-2.444	8.026
+11746965_a_at	ANPEP	alanyl (membrane) aminopeptidase	2.542	5.469
+11747167_x_at	ADH1B	alcohol dehydrogenase 1B (class I), beta polypeptide	3.025	9.89
+11747264_a_at	BCAS1	breast carcinoma amplified sequence 1	2.027	7.325
+11747265_x_at	BCAS1	breast carcinoma amplified sequence 1	2.083	7.919
+11747328_a_at	FHL1	four and a half LIM domains 1	2.267	5.53
+11747714_a_at	ABCA8	ATP binding cassette subfamily A member 8	2.392	9.767
+11748513_x_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.742	9.908
+11748655_x_at	FHL1	four and a half LIM domains 1	2.476	5.312
+11748816_a_at	UGT2A3	UDP glucuronosyltransferase 2 family, polypeptide A3	2.578	7.125
+11748905_a_at	CTHRC1	collagen triple helix repeat containing 1	-2.019	5.038
+11749273_a_at	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	3.076	6.124
+11749983_a_at	SERPINB5	serpin peptidase inhibitor, clade B (ovalbumin), member 5	-2.096	5.458
+11750140_x_at	TOP1MT	topoisomerase (DNA) I, mitochondrial	-2.049	8.989
+11750205_a_at	BCAS1	breast carcinoma amplified sequence 1	2.486	6.289
+11750303_x_at	B3GALT5-AS1	B3GALT5 antisense RNA 1	3.929	6.497
+11750410_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	2.967	8.078
+11750472_a_at	PCK1	phosphoenolpyruvate carboxykinase 1 (soluble)	2.097	5.882
+11750517_x_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.581	9.453
+11750604_a_at	GTF2IRD1	GTF2I repeat domain containing 1	-2.334	13.198
+11750825_a_at	ADAMDEC1	ADAM-like, decysin 1	3.188	8.093
+11750826_x_at	ADAMDEC1	ADAM-like, decysin 1	3.269	7.809
+11750844_a_at	SLC17A4	solute carrier family 17, member 4	2.152	12.437
+11750860_a_at	CMAHP	cytidine monophospho-N-acetylneuraminic acid hydroxylase, pseudogene	2.17	6.209
+11750918_a_at	HEPACAM2	HEPACAM family member 2	2.941	5.61
+11751267_a_at	ADAMDEC1	ADAM-like, decysin 1	2.988	7.469
+11751355_a_at	CEACAM7	carcinoembryonic antigen-related cell adhesion molecule 7	3.072	5.905
+11751841_a_at	TNFRSF17	tumor necrosis factor receptor superfamily, member 17	3.175	10.623
+11751904_x_at	COL11A1	collagen, type XI, alpha 1	-2.08	6.284
+11752269_a_at	UGT1A1 /// UGT1A10 /// UGT1A3 /// UGT1A4 /// UGT1A5 /// UGT1A6 /// UGT1A7 /// UGT1A8 /// UGT1A9	UDP glucuronosyltransferase 1 family, polypeptide A1 /// UDP glucuronosyltransferase 1 family, polypeptide A10 /// UDP glucuronosyltransferase 1 family, polypeptide A3 /// UDP glucuronosyltransferase 1 family, polypeptide A4 /// UDP glucuronosyltransferase 1 family, polypeptide A5 /// UDP glucuronosyltransferase 1 family, polypeptide A6 /// UDP glucuronosyltransferase 1 family, polypeptide A7 /// UDP glucuronosyltransferase 1 family, polypeptide A8 /// UDP glucuronosyltransferase 1 family, polypeptide A9	2.989	7.765
+11752834_s_at	BTNL8	butyrophilin-like 8	2.086	6.983
+11753010_x_at	FHL1	four and a half LIM domains 1	2.078	5.164
+11753257_a_at	CXCL12	chemokine (C-X-C motif) ligand 12	3.282	9.08
+11753601_x_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.346	9.659
+11753653_a_at	CEACAM7	carcinoembryonic antigen-related cell adhesion molecule 7	3.188	5.779
+11753702_a_at	TMEM220	transmembrane protein 220	2.331	7.521
+11753736_s_at	MT1JP /// MT1M /// MT1P3	metallothionein 1J, pseudogene /// metallothionein 1M /// metallothionein 1 pseudogene 3	3.11	7.693
+11753942_a_at	UCA1	urothelial cancer associated 1 (non-protein coding)	-2.331	3.675
+11754026_a_at	CXCL8	chemokine (C-X-C motif) ligand 8	-2.983	4.462
+11754145_x_at	IGKV1-27 /// IGKV1D-27 /// IGKV1OR1-1 /// IGKV1OR10-1 /// IGKV1OR2-118 /// IGKV1OR22-5	immunoglobulin kappa variable 1-27 /// immunoglobulin kappa variable 1D-27 (pseudogene) /// immunoglobulin kappa variable 1/OR1-1 (pseudogene) /// immunoglobulin kappa variable 1/OR10-1 (pseudogene) /// immunoglobulin kappa variable 1/OR2-118 (pseudogene) /// immunoglobulin kappa variable 1/OR22-5 (pseudogene)	2.505	5.091
+11754189_s_at	AKR1C1 /// AKR1C2	aldo-keto reductase family 1, member C1 /// aldo-keto reductase family 1, member C2	2.119	12.74
+11754382_a_at	SMIM5	small integral membrane protein 5	2.069	10.842
+11754421_a_at	VSIG2	V-set and immunoglobulin domain containing 2	2.375	4.516
+11754594_a_at	SLC26A2	solute carrier family 26 (anion exchanger), member 2	3.311	7.781
+11754595_s_at	SLC26A2	solute carrier family 26 (anion exchanger), member 2	3.047	8.137
+11754853_s_at	PDZK1 /// PDZK1P1	PDZ domain containing 1 /// PDZ domain containing 1 pseudogene 1	2.061	3.746
+11754856_a_at	CA12	carbonic anhydrase XII	2.35	7.25
+11754909_a_at	C2orf88	chromosome 2 open reading frame 88	2.944	13.532
+11754924_s_at	ADTRP	androgen-dependent TFPI-regulating protein	2.911	7.158
+11755024_a_at	MYEOV	myeloma overexpressed	-2.621	8.91
+11755195_a_at	NXPE1	neurexophilin and PC-esterase domain family, member 1	2.72	6.105
+11755281_a_at	TGFBI	transforming growth factor, beta-induced, 68kDa	-2.268	7.849
+11755307_a_at	MEP1A	meprin A, alpha (PABA peptide hydrolase)	2.059	7.28
+11755331_a_at	ANK2	ankyrin 2, neuronal	2.705	7.114
+11755382_x_at	IGLL5 /// IGLV1-36 /// IGLV1-44 /// IGLV1-47	immunoglobulin lambda-like polypeptide 5 /// immunoglobulin lambda variable 1-36 /// immunoglobulin lambda variable 1-44 /// immunoglobulin lambda variable 1-47	2.997	5.315
+11755393_a_at	HHLA2	HERV-H LTR-associating 2	2.497	10.053
+11755560_a_at	PDE6A	phosphodiesterase 6A, cGMP-specific, rod, alpha	2.041	9.448
+11755576_a_at	TRPM6	transient receptor potential cation channel, subfamily M, member 6	2.612	11.827
+11755607_a_at	KIAA1549	KIAA1549	-2.318	12.213
+11755608_x_at	KIAA1549	KIAA1549	-2.036	10.553
+11755705_a_at	SMIM5	small integral membrane protein 5	2.014	10.159
+11755748_s_at	PLAC8	placenta specific 8	2.138	8.811
+11755757_a_at	SYNM	synemin, intermediate filament protein	2.302	2.562
+11755858_a_at	MS4A1	membrane-spanning 4-domains, subfamily A, member 1	2.748	4.106
+11755928_s_at	MMP1	matrix metallopeptidase 1	-2.551	3.163
+11755964_a_at	NRXN1	neurexin 1	2.032	8.476
+11755975_x_at	PKIB	protein kinase (cAMP-dependent, catalytic) inhibitor beta	3.544	10.17
+11756074_a_at	MMP7	matrix metallopeptidase 7	-4.38	9.195
+11756182_s_at	PSAT1	phosphoserine aminotransferase 1	-2.068	3.712
+11756316_a_at	CHI3L1	chitinase 3-like 1 (cartilage glycoprotein-39)	-2.076	3.934
+11756343_a_at	DPEP1	dipeptidase 1 (renal)	-3.891	5.941
+11756547_a_at	CLU	clusterin	2.25	5.852
+11756658_a_at	MZB1	marginal zone B and B1 cell-specific protein	2.549	6.402
+11756770_x_at	TRIM29	tripartite motif containing 29	-2.708	8.017
+11756822_s_at	LYVE1	lymphatic vessel endothelial hyaluronan receptor 1	2.992	6.655
+11756898_a_at	PGM5	phosphoglucomutase 5	2.24	3.794
+11757044_x_at	HILPDA	hypoxia inducible lipid droplet-associated	-2.153	9.568
+11757815_s_at	METTL7A	methyltransferase like 7A	2.279	8.036
+11757921_s_at	COL14A1	collagen, type XIV, alpha 1	2.068	5.399
+11758028_s_at	FOXQ1	forkhead box Q1	-5.147	11.897
+11758048_s_at	THRB	thyroid hormone receptor, beta	2.763	7.108
+11758083_s_at	HPGD	hydroxyprostaglandin dehydrogenase 15-(NAD)	2.597	9.985
+11758145_s_at	LIFR	leukemia inhibitory factor receptor alpha	2.466	11.114
+11758224_s_at	CCDC80	coiled-coil domain containing 80	2.296	4.124
+11758287_s_at	TMEM236	transmembrane protein 236	2.978	12.011
+11758438_s_at	CD36	CD36 molecule (thrombospondin receptor)	2.586	11.349
+11758790_a_at	STMN2	stathmin 2	2.556	8.173
+11758834_at	RNF43	ring finger protein 43	-2.035	7.486
+11758861_at	ZG16	zymogen granule protein 16	2.754	12.441
+11759120_a_at	LGR5	leucine-rich repeat containing G protein-coupled receptor 5	-2.244	4.463
+11759415_at	SLC51B	solute carrier family 51, beta subunit	3.19	12.361
+11759464_at	OTOP2	otopetrin 2	2.22	10.174
+11759685_x_at	IGLV1-40	immunoglobulin lambda variable 1-40	2.01	6.613
+11759815_a_at	IGHM	immunoglobulin heavy constant mu	2.7	4.85
+11759816_x_at	IGHM	immunoglobulin heavy constant mu	2.518	4.952
+11760029_x_at	ABCA8	ATP binding cassette subfamily A member 8	2.747	8.106
+11760137_x_at	IGHA1	immunoglobulin heavy constant alpha 1	3.084	6.506
+11761899_a_at	IGH /// IGHA1 /// IGHA2	immunoglobulin heavy locus /// immunoglobulin heavy constant alpha 1 /// immunoglobulin heavy constant alpha 2 (A2m marker)	3.193	7.095
+11761921_x_at	PYY	peptide YY	2.14	10.417
+11762012_at	MYH11	myosin, heavy chain 11, smooth muscle	2.263	3.4
+11762091_x_at	IGH /// IGHA2	immunoglobulin heavy locus /// immunoglobulin heavy constant alpha 2 (A2m marker)	3.016	6.921
+11762099_x_at	IGHA1	immunoglobulin heavy constant alpha 1	3.062	6.504
+11762999_at	IGH	immunoglobulin heavy locus	3.116	12.395
+11763100_x_at	MT1JP	metallothionein 1J, pseudogene	3.092	7.6
+11763144_x_at	IGKV3-11 /// IGKV3D-11	immunoglobulin kappa variable 3-11 /// immunoglobulin kappa variable 3D-11	2.331	3.711
+11763222_x_at	IGK /// IGKC /// IGKV1-16 /// IGKV1-5 /// IGKV1D-16 /// IGKV1D-17	immunoglobulin kappa locus /// immunoglobulin kappa constant /// immunoglobulin kappa variable 1-16 /// immunoglobulin kappa variable 1-5 /// immunoglobulin kappa variable 1D-16 /// immunoglobulin kappa variable 1D-17	2.488	4.756
+11763225_x_at	IGLV1-41 /// IGLV1-51	immunoglobulin lambda variable 1-41 (pseudogene) /// immunoglobulin lambda variable 1-51	2.18	6.651
+11763226_x_at	CXCL8	chemokine (C-X-C motif) ligand 8	-2.734	4.054
+11763229_x_at	IGLJ3 /// IGLL5 /// IGLV3-19	immunoglobulin lambda joining 3 /// immunoglobulin lambda-like polypeptide 5 /// immunoglobulin lambda variable 3-19	2.2	8.542
+11763249_x_at	IGH /// IGHA2	immunoglobulin heavy locus /// immunoglobulin heavy constant alpha 2 (A2m marker)	3.086	6.794
+11763253_x_at	IGKV2-28 /// IGKV2D-28	immunoglobulin kappa variable 2-28 /// immunoglobulin kappa variable 2D-28	2.255	4.618
+11763360_a_at	VSIG2	V-set and immunoglobulin domain containing 2	2.302	6.376
+11763361_at	VSIG2	V-set and immunoglobulin domain containing 2	2.248	5.297
+11763408_x_at	ANKRD36BP2	ankyrin repeat domain 36B pseudogene 2	2.435	8.012
+11763568_a_at	NXPE2	neurexophilin and PC-esterase domain family, member 2	2.021	4.713
+11763640_x_at	IGKV1-39 /// IGKV1D-39	immunoglobulin kappa variable 1-39 (gene/pseudogene) /// immunoglobulin kappa variable 1D-39	2.347	4.553
+11763663_x_at	IGKC /// IGKV1-33 /// IGKV1D-33	immunoglobulin kappa constant /// immunoglobulin kappa variable 1-33 /// immunoglobulin kappa variable 1D-33	2.372	4.157
+11763684_x_at	IGKV1-5	immunoglobulin kappa variable 1-5	2.146	4.351
+11763828_a_at	DPEP1	dipeptidase 1 (renal)	-2.067	4.532
+11763971_at	LINC01082	long intergenic non-protein coding RNA 1082	2.275	8.306
+11764046_x_at	IGHM	immunoglobulin heavy constant mu	2.727	4.955
+11764077_s_at	EDIL3	EGF-like repeats and discoidin I-like domains 3	2.294	9.701
+11764130_s_at	IGH /// IGHA1 /// IGHA2	immunoglobulin heavy locus /// immunoglobulin heavy constant alpha 1 /// immunoglobulin heavy constant alpha 2 (A2m marker)	3.223	5.149
